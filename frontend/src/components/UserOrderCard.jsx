@@ -48,7 +48,7 @@ function UserOrderCard({ data }) {
             </div>
 
             {data.shopOrders.map((shopOrder, index) => (
-                <div className='"border rounded-lg p-3 bg-[#fffaf7] space-y-3' key={index}>
+                <div className='border rounded-lg p-3 bg-[#fffaf7] space-y-3' key={index}>
                     <p>{shopOrder.shop.name}</p>
 
                     <div className='flex space-x-4 overflow-x-auto pb-2'>
